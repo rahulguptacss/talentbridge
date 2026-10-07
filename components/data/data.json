@@ -1,0 +1,1806 @@
+{
+  "common": {
+    "Topbar": {
+      "contact_info": [
+        {
+          "icon": "Mail",
+          "value": "info@xyz.com"
+        },
+        {
+          "icon": "Phone",
+          "value": "+100000000000"
+        }
+      ],
+      "socials": [
+        {
+          "icon": "Instagram",
+          "href": "https://instagram.com"
+        },
+        {
+          "icon": "Facebook",
+          "href": "https://facebook.com"
+        },
+        {
+          "icon": "Linkedin",
+          "href": "https://linkedin.com"
+        }
+      ]
+    },
+    "Header": {
+      "logo_text": "TalentBridge",
+      "logo_image": "/logo/logo.png",
+      "links": [
+        {
+          "name": "Home",
+          "href": "/",
+          "active": true
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Our Services",
+          "href": "/services"
+        },
+        {
+          "name": "Jobs",
+          "href": "/jobs"
+        },
+        {
+          "name": "Our Team",
+          "href": "/team"
+        },
+        {
+          "name": "Blog",
+          "href": "/blog"
+        },
+        {
+          "name": "FAQ",
+          "href": "/faq"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "button_text": "Call Now",
+      "button_link": "tel:+100000000000"
+    },
+    "Footer": {
+      "logo_text": "TalentBridge",
+      "logo_image": "/logo/white-logo.png",
+      "description": "Connecting the right talent with the right opportunities. We help businesses build stronger teams and careers grow faster.",
+      "socials": [
+        {
+          "icon": "Facebook",
+          "href": "https://facebook.com"
+        },
+        {
+          "icon": "Instagram",
+          "href": "https://instagram.com"
+        },
+        {
+          "icon": "Linkedin",
+          "href": "https://linkedin.com"
+        },
+        {
+          "icon": "Youtube",
+          "href": "https://youtube.com"
+        }
+      ],
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Jobs",
+          "href": "/jobs"
+        },
+        {
+          "name": "Blog",
+          "href": "/blog"
+        },
+        {
+          "name": "FAQ",
+          "href": "/faq"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "our_services": [
+        {
+          "name": "Permanent Hiring",
+          "href": "/services/permanent-hiring"
+        },
+        {
+          "name": "Contract Staffing",
+          "href": "/services/contract-staffing"
+        },
+        {
+          "name": "Executive Search",
+          "href": "/services/executive-search"
+        },
+        {
+          "name": "IT Recruitment",
+          "href": "/services/it-recruitment"
+        },
+        {
+          "name": "Non-IT Recruitment",
+          "href": "/services/non-it-recruitment"
+        },
+        {
+          "name": "Bulk Hiring",
+          "href": "/services/bulk-hiring"
+        }
+      ],
+      "contact": {
+        "phone": "+100000000000",
+        "email": "info@xyz.com",
+        "address": "123 Education Lane, New York, NY 10001"
+      },
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow"
+    }
+  },
+  "categories": {
+    "HR": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "Home",
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "FeaturesSection",
+                  "component": "Features"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services",
+                  "props": { "limit": 4 }
+                },
+                {
+                  "key": "ProcessSection",
+                  "component": "Process"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "StatsSection",
+                  "component": "Stats"
+                },
+                {
+                  "key": "BlogSection",
+                  "component": "Blog",
+                  "props": { "limit": 2 }
+                }
+              ]
+            },
+            "about": {
+              "title": "About",
+              "pageName": "About Us",
+              "meta": {
+                "title": "About Us - TalentBridge",
+                "description": "Learn about TalentBridge, our mission, vision and how we help businesses hire the right talent."
+              },
+              "mainClassName": "min-h-screen bg-white",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "props": { "title1": "About", "title2": "us", "breadcrumb": "About Us" }
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "MissionVisionSection",
+                  "component": "MissionVision"
+                },
+                {
+                  "key": "ProcessSection",
+                  "component": "Process"
+                },
+                {
+                  "key": "WhyChooseUsSection",
+                  "component": "WhyChooseUs"
+                }
+              ]
+            },
+            "services": {
+              "title": "Services",
+              "pageName": "Our Services",
+              "meta": {
+                "title": "Our Services - TalentBridge",
+                "description": "Comprehensive Recruitment Solutions for your business needs."
+              },
+              "mainClassName": "",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "props": { "title1": "Our", "title2": "Services", "breadcrumb": "Our Services" }
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                },
+                {
+                  "key": "WhyChooseUsSection",
+                  "component": "WhyChooseUs",
+                  "props": { "bgColor": "bg-white" }
+                }
+              ]
+            },
+            "jobs": {
+              "title": "Jobs",
+              "pageName": "Job List",
+              "meta": {
+                "title": "Job List - TalentBridge",
+                "description": "Explore exciting career opportunities and take the next step in your professional journey."
+              },
+              "mainClassName": "min-h-screen bg-white",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "props": { "title1": "Job", "title2": "List", "breadcrumb": "Job List" }
+                },
+                {
+                  "key": "JobsSection",
+                  "component": "Jobs"
+                }
+              ]
+            },
+            "jobDetails": {
+              "title": "Job Details",
+              "pageName": "Job Details",
+              "meta": {
+                "titleSuffix": " - TalentBridge"
+              },
+              "mainClassName": "min-h-screen bg-[#f8f9fa] flex flex-col",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "props": { "title1": "Job", "title2": "Details", "breadcrumb": "Job Details" }
+                },
+                {
+                  "key": "JobDetailsSection",
+                  "component": "JobDetails"
+                }
+              ]
+            },
+            "team": {
+              "title": "Team",
+              "pageName": "Our Teams",
+              "meta": {
+                "title": "Our Team - TalentBridge",
+                "description": "Meet the TalentBridge experts dedicated to connecting the right talent with the right opportunities."
+              },
+              "mainClassName": "min-h-screen bg-white",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "props": { "title1": "Our", "title2": "Teams", "breadcrumb": "Our Teams" }
+                },
+                {
+                  "key": "TeamSection",
+                  "component": "Team"
+                }
+              ]
+            },
+            "serviceDetails": {
+              "title": "Service Details",
+              "pageName": "Service Details",
+              "meta": {
+                "titleSuffix": " - TalentBridge"
+              },
+              "mainClassName": "min-h-screen bg-white",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "props": { "title1": "Service", "title2": "Details", "breadcrumb": "Service Details" }
+                },
+                {
+                  "key": "ServiceDetailsSection",
+                  "component": "ServiceDetails"
+                }
+              ]
+            },
+            "blog": {
+              "title": "Blog",
+              "pageName": "Our Blogs",
+              "meta": {
+                "title": "Our Blogs - TalentBridge",
+                "description": "Stay updated with the latest trends, industry insights and career tips from the recruitment industry."
+              },
+              "mainClassName": "min-h-screen bg-white",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "props": { "title1": "Our", "title2": "Blogs", "breadcrumb": "Our Blogs" }
+                },
+                {
+                  "key": "BlogSection",
+                  "component": "Blog",
+                  "props": { "showButton": false, "variant": "page", "perPage": 6 }
+                }
+              ]
+            },
+            "blogDetails": {
+              "title": "Blog Details",
+              "pageName": "Blog Details",
+              "meta": {
+                "titleSuffix": " - TalentBridge Blog"
+              },
+              "mainClassName": "min-h-screen bg-white",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "props": {
+                    "title1": "Blog",
+                    "title2": "Details",
+                    "breadcrumb": "Blog Details",
+                    "parents": [{ "label": "Our Blogs", "href": "/blog" }]
+                  }
+                },
+                {
+                  "key": "BlogDetailsSection",
+                  "component": "BlogDetails"
+                }
+              ]
+            },
+            "faq": {
+              "title": "FAQ",
+              "pageName": "Faqs",
+              "meta": {
+                "title": "FAQs - TalentBridge",
+                "description": "Find quick answers to common questions about TalentBridge recruitment services, process and how we help businesses and talent grow together."
+              },
+              "mainClassName": "min-h-screen bg-white",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "props": { "title1": "Faqs", "title2": "", "breadcrumb": "Faqs" }
+                },
+                {
+                  "key": "FaqSection",
+                  "component": "Faq"
+                },
+                {
+                  "key": "SupportSection",
+                  "component": "Support"
+                }
+              ]
+            },
+            "contact": {
+              "title": "Contact",
+              "pageName": "Contact Us",
+              "meta": {
+                "title": "Contact Us - TalentBridge",
+                "description": "Get in touch with TalentBridge to discuss your hiring needs, ask questions or learn how our HR and recruitment solutions can support your business goals."
+              },
+              "mainClassName": "min-h-screen bg-white",
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb",
+                  "props": { "title1": "Contact", "title2": "Us", "breadcrumb": "Contact Us" }
+                },
+                {
+                  "key": "ContactSection",
+                  "component": "Contact"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "subtitle": "WELCOME TO TALENTBRIDGE",
+              "title_line1": "Your Hiring Partner",
+              "title_line2": "for a ",
+              "title_highlight": "Brighter Tomorrow",
+              "features": [
+                {
+                  "icon": "Users",
+                  "text": "Qualified Candidates"
+                },
+                {
+                  "icon": "Search",
+                  "text": "Faster Recruitment"
+                },
+                {
+                  "icon": "BarChart",
+                  "text": "Industry Focused Team Solutions"
+                }
+              ],
+              "button": {
+                "text": "Hire Talent Today",
+                "href": "/hire"
+              },
+              "image": "/img/hero.webp"
+            },
+            "features": {
+              "items": [
+                {
+                  "icon": "Target",
+                  "title": "Trusted Recruiters",
+                  "description": "Connecting top talent with the right opportunities."
+                },
+                {
+                  "icon": "Users",
+                  "title": "Qualified Candidates",
+                  "description": "Thoroughly screened and verified professionals."
+                },
+                {
+                  "icon": "Zap",
+                  "title": "Fast Hiring Process",
+                  "description": "Reduce time-to-hire with our streamlined solutions."
+                },
+                {
+                  "icon": "Award",
+                  "title": "Industry Expertise",
+                  "description": "Specialized recruiters for distinct industries."
+                }
+              ]
+            },
+            "about": {
+              "subtitle": "About Us",
+              "title": "Bridging the Gap Between Employers and Talent",
+              "description": "At <strong class=\"text-[#041e42]\">TalentBridge</strong>, we simplify the hiring process by offering customized recruitment solutions that meet your business needs. Whether you're looking for full-time professionals, contract workers, or temporary staff, we ensure a seamless experience from recruitment to onboarding.",
+              "image1": "/img/h1.webp",
+              "image2": "/img/h2.webp",
+              "button": {
+                "text": "EXPLORE AGENCY",
+                "href": "/about"
+              },
+              "badge_text": "TRUSTED RECRUITMENT PARTNER"
+            },
+            "services": {
+              "subtitle": "OUR SERVICES",
+              "title_line1": "Comprehensive ",
+              "title_highlight": "Recruitment Solutions",
+              "description": "We offer end-to-end recruitment services tailored to meet the specific needs of your business.",
+              "button": {
+                "text": "View All Services",
+                "href": "/services"
+              },
+              "items": [
+                {
+                  "icon": "Users",
+                  "title": "Permanent Hiring",
+                  "slug": "permanent-hiring",
+                  "description": "Find the right long-term talent to strengthen your team and drive business growth.",
+                  "image": "/img/h1.webp",
+                  "hero": {
+                    "tag": "PROFESSIONAL",
+                    "title1": "Permanent",
+                    "title2": "Hiring",
+                    "tagline": [
+                      "Right People",
+                      "for a Stronger Tomorrow"
+                    ]
+                  },
+                  "content": [
+                    {
+                      "title": "Permanent Hiring Services",
+                      "text": "We provide reliable, end-to-end permanent hiring solutions for startups, SMEs and large enterprises. Our recruiters understand your culture, goals and role requirements to source candidates who stay longer and grow with you. From job briefing to offer roll-out, every step is handled with care and transparency."
+                    },
+                    {
+                      "title": "Talent Sourcing & Screening",
+                      "text": "We combine a large active talent database with targeted headhunting across job portals, LinkedIn and referrals. Every profile is pre-screened for skills, experience, salary fit and notice period so your team only interviews candidates who are genuinely ready to join."
+                    },
+                    {
+                      "title": "Structured Interview Process",
+                      "text": "We coordinate interviews, collect structured feedback and keep candidates engaged at every stage. Our assessment frameworks help hiring managers compare candidates objectively and make confident decisions faster."
+                    },
+                    {
+                      "title": "Quality & Retention Assurance",
+                      "text": "Quality is our top priority. We verify backgrounds, references and credentials before every offer. Our placements come with a replacement guarantee, giving you complete peace of mind on every hire."
+                    },
+                    {
+                      "title": "Why Choose Our Permanent Hiring?",
+                      "text": "With years of recruitment experience, industry-specialist recruiters and a candidate-first approach, we have become a trusted hiring partner for growing businesses. We offer transparent pricing, faster turnaround times and dedicated account managers for a smooth hiring experience."
+                    }
+                  ],
+                  "link": "/services/permanent-hiring"
+                },
+                {
+                  "icon": "FileCheck",
+                  "title": "Contract Staffing",
+                  "slug": "contract-staffing",
+                  "description": "Flexible staffing solutions to meet your short-term and project-based requirements.",
+                  "image": "/img/w2.png",
+                  "hero": {
+                    "tag": "FLEXIBLE",
+                    "title1": "Contract",
+                    "title2": "Staffing",
+                    "tagline": [
+                      "Skilled Talent",
+                      "Exactly When You Need It"
+                    ]
+                  },
+                  "content": [
+                    {
+                      "title": "Contract Staffing Services",
+                      "text": "Our contract staffing solutions help you scale your workforce up or down without long-term commitments. Whether you need resources for a seasonal peak, a new project or to cover a leave gap, we deploy pre-vetted professionals quickly."
+                    },
+                    {
+                      "title": "Project-Based Resourcing",
+                      "text": "We provide skilled contractors for fixed-duration projects across IT, finance, operations, sales and more. Our team aligns contractor skills with your project scope, timelines and budget to keep delivery on track."
+                    },
+                    {
+                      "title": "Payroll & Compliance Management",
+                      "text": "We take care of payroll, statutory compliance, PF, ESIC, insurance and documentation for every contractor. You get productive talent while we handle the administrative and legal workload."
+                    },
+                    {
+                      "title": "Quality & Performance Monitoring",
+                      "text": "We stay connected with both you and the contractor throughout the engagement, tracking attendance, performance and satisfaction. Any concern is addressed quickly, with fast replacements where needed."
+                    },
+                    {
+                      "title": "Why Choose Our Contract Staffing?",
+                      "text": "Quick deployment, flexible tenure, transparent billing and full compliance coverage make us a preferred staffing partner. You get the agility of a flexible workforce with the reliability of a dedicated team."
+                    }
+                  ],
+                  "link": "/services/contract-staffing"
+                },
+                {
+                  "icon": "UserCheck",
+                  "title": "Executive Search",
+                  "slug": "executive-search",
+                  "description": "Identify and attract top leadership talent for critical business roles.",
+                  "image": "/services/executive-search.png",
+                  "hero": {
+                    "tag": "LEADERSHIP",
+                    "title1": "Executive",
+                    "title2": "Search",
+                    "tagline": [
+                      "Visionary Leaders",
+                      "for Lasting Impact"
+                    ]
+                  },
+                  "content": [
+                    {
+                      "title": "Executive Search Services",
+                      "text": "We help organisations find CXOs, directors and senior managers who can lead with vision and deliver results. Our confidential, research-driven approach reaches passive leaders who are not actively looking but are the right fit for your business."
+                    },
+                    {
+                      "title": "Leadership Market Mapping",
+                      "text": "We map the leadership landscape in your industry, identify high-potential executives and benchmark compensation. This gives you clear insights into available talent and competitive positioning before the search even begins."
+                    },
+                    {
+                      "title": "Confidential & Discreet Process",
+                      "text": "Senior hires demand discretion. We manage every conversation confidentially, protecting your brand and the candidate's current position while building trust on both sides."
+                    },
+                    {
+                      "title": "In-Depth Leadership Assessment",
+                      "text": "Our consultants evaluate leadership style, strategic thinking, cultural alignment and track record through structured interviews and detailed reference checks, so you hire leaders who truly fit."
+                    },
+                    {
+                      "title": "Why Choose Our Executive Search?",
+                      "text": "Experienced search consultants, a strong senior-level network and a proven track record of successful leadership placements make us a trusted partner for critical hires that shape your company's future."
+                    }
+                  ],
+                  "link": "/services/executive-search"
+                },
+                {
+                  "icon": "Monitor",
+                  "title": "IT Recruitment",
+                  "slug": "it-recruitment",
+                  "description": "Skilled IT professionals to power your technology and digital transformation.",
+                  "image": "/services/it-recruitment.png",
+                  "hero": {
+                    "tag": "TECHNOLOGY",
+                    "title1": "IT",
+                    "title2": "Recruitment",
+                    "tagline": [
+                      "Tech Talent",
+                      "for Digital Growth"
+                    ]
+                  },
+                  "content": [
+                    {
+                      "title": "IT Recruitment Services",
+                      "text": "We source developers, testers, DevOps engineers, data specialists, cloud architects and IT leaders for product companies, IT services firms and enterprises. Our tech recruiters speak your language and understand the skills that matter."
+                    },
+                    {
+                      "title": "Technical Screening",
+                      "text": "Every candidate goes through technical screening, coding assessments or project discussions before reaching you. This saves your engineering team valuable interview time and improves selection ratios."
+                    },
+                    {
+                      "title": "Niche & Emerging Skills",
+                      "text": "From AI/ML and cybersecurity to SAP, Salesforce and full-stack development, we have strong networks in niche and emerging technologies that are hard to hire for."
+                    },
+                    {
+                      "title": "Quality & Speed Assurance",
+                      "text": "We understand the speed at which tech hiring moves. Our dedicated delivery teams share qualified profiles within days, and our quality checks ensure candidates match both technical and cultural expectations."
+                    },
+                    {
+                      "title": "Why Choose Our IT Recruitment?",
+                      "text": "Domain-specialist recruiters, a large tech talent pool, fast turnaround and flexible hiring models — permanent, contract or contract-to-hire — make us the preferred partner for technology hiring."
+                    }
+                  ],
+                  "link": "/services/it-recruitment"
+                },
+                {
+                  "icon": "Briefcase",
+                  "title": "Non-IT Recruitment",
+                  "slug": "non-it-recruitment",
+                  "description": "Hire qualified professionals across diverse industries and functions.",
+                  "image": "/img/missino.png",
+                  "hero": {
+                    "tag": "ALL INDUSTRIES",
+                    "title1": "Non-IT",
+                    "title2": "Recruitment",
+                    "tagline": [
+                      "Skilled Professionals",
+                      "Across Every Function"
+                    ]
+                  },
+                  "content": [
+                    {
+                      "title": "Non-IT Recruitment Services",
+                      "text": "We hire for sales, marketing, finance, HR, operations, manufacturing, healthcare, retail, logistics and more. Our functional recruiters understand the unique skills and qualities each role demands."
+                    },
+                    {
+                      "title": "Functional Expertise",
+                      "text": "Each industry vertical is handled by recruiters with domain knowledge, ensuring better understanding of job requirements and more accurate candidate matching from the very first shortlist."
+                    },
+                    {
+                      "title": "Pan-India Reach",
+                      "text": "With a strong network across metro, tier-2 and tier-3 cities, we can source talent for your locations wherever your business operates, including field and on-site roles."
+                    },
+                    {
+                      "title": "Quality & Verification",
+                      "text": "All candidates are screened for experience, communication, stability and role fit. We also support background checks and documentation for a smooth onboarding process."
+                    },
+                    {
+                      "title": "Why Choose Our Non-IT Recruitment?",
+                      "text": "Broad industry coverage, quick shortlisting, transparent communication and a commitment to quality hires make us a reliable recruitment partner for every non-technical requirement."
+                    }
+                  ],
+                  "link": "/services/non-it-recruitment"
+                },
+                {
+                  "icon": "Layers",
+                  "title": "Bulk Hiring",
+                  "slug": "bulk-hiring",
+                  "description": "Scale your workforce quickly with our efficient bulk recruitment solutions.",
+                  "image": "/img/h2.webp",
+                  "hero": {
+                    "tag": "HIGH VOLUME",
+                    "title1": "Bulk",
+                    "title2": "Hiring",
+                    "tagline": [
+                      "Scale Your Team",
+                      "Faster & Smarter"
+                    ]
+                  },
+                  "content": [
+                    {
+                      "title": "Bulk Hiring Services",
+                      "text": "Need to hire hundreds of people in a short time? Our bulk hiring solutions are designed for high-volume requirements such as new branch launches, BPO ramp-ups, retail expansions and seasonal peaks."
+                    },
+                    {
+                      "title": "Recruitment Drives & Walk-ins",
+                      "text": "We plan and execute walk-in drives, campus drives and virtual hiring events end-to-end — from candidate mobilisation and venue setup to screening and on-the-spot selections."
+                    },
+                    {
+                      "title": "Process-Driven Screening",
+                      "text": "Standardised assessments, structured interviews and technology-enabled tracking help us screen large volumes quickly while maintaining consistent quality."
+                    },
+                    {
+                      "title": "Onboarding Support",
+                      "text": "We assist with offer roll-outs, document collection and joining follow-ups to reduce drop-offs and ensure your new workforce joins on time."
+                    },
+                    {
+                      "title": "Why Choose Our Bulk Hiring?",
+                      "text": "Large candidate databases, experienced drive managers, real-time reporting and cost-effective pricing models make us the right partner for your high-volume hiring goals."
+                    }
+                  ],
+                  "link": "/services/bulk-hiring"
+                },
+                {
+                  "icon": "ClipboardCheck",
+                  "title": "RPO Solutions",
+                  "slug": "rpo-solutions",
+                  "description": "End-to-end recruitment process outsourcing to streamline your hiring needs.",
+                  "image": "/img/w1.png",
+                  "hero": {
+                    "tag": "END-TO-END",
+                    "title1": "RPO",
+                    "title2": "Solutions",
+                    "tagline": [
+                      "Smarter Hiring",
+                      "Built Around You"
+                    ]
+                  },
+                  "content": [
+                    {
+                      "title": "RPO Solutions",
+                      "text": "Our Recruitment Process Outsourcing services act as an extension of your HR team. We take ownership of part or all of your hiring process to improve quality, speed and cost efficiency."
+                    },
+                    {
+                      "title": "Dedicated Recruitment Team",
+                      "text": "We assign a dedicated team of recruiters, sourcers and coordinators who work exclusively on your mandates and follow your processes, tools and employer brand guidelines."
+                    },
+                    {
+                      "title": "Analytics & Reporting",
+                      "text": "Get complete visibility with regular reports on pipeline health, time-to-hire, cost-per-hire, source effectiveness and hiring manager satisfaction."
+                    },
+                    {
+                      "title": "Scalable & Flexible Model",
+                      "text": "Our RPO model scales with your business — ramp up during growth phases and scale down when hiring slows, without the overhead of a large in-house team."
+                    },
+                    {
+                      "title": "Why Choose Our RPO Solutions?",
+                      "text": "Proven processes, experienced RPO leaders, technology-driven delivery and a focus on measurable outcomes make us a trusted partner for organisations looking to transform their hiring."
+                    }
+                  ],
+                  "link": "/services/rpo-solutions"
+                },
+                {
+                  "icon": "GraduationCap",
+                  "title": "Career Support",
+                  "slug": "career-support",
+                  "description": "Guidance and support for candidates to build successful and rewarding careers.",
+                  "image": "/team/team-9.jpg",
+                  "hero": {
+                    "tag": "FOR CANDIDATES",
+                    "title1": "Career",
+                    "title2": "Support",
+                    "tagline": [
+                      "Your Next Step",
+                      "Starts Here"
+                    ]
+                  },
+                  "content": [
+                    {
+                      "title": "Career Support Services",
+                      "text": "We help job seekers at every stage — freshers, mid-level professionals and senior leaders — find the right opportunities and build rewarding careers with leading companies."
+                    },
+                    {
+                      "title": "Resume & Profile Building",
+                      "text": "Our experts help you craft a strong resume and LinkedIn profile that highlights your strengths and gets noticed by recruiters and hiring managers."
+                    },
+                    {
+                      "title": "Interview Preparation",
+                      "text": "From mock interviews to feedback sessions, we prepare you to present yourself confidently and handle technical, HR and managerial rounds with ease."
+                    },
+                    {
+                      "title": "Career Guidance",
+                      "text": "Our career counsellors help you understand market trends, identify the right roles and plan your growth path with clarity and confidence."
+                    },
+                    {
+                      "title": "Why Choose Our Career Support?",
+                      "text": "Access to exclusive job openings, personalised guidance and a supportive team that stays with you until you land the right role make us a trusted career partner."
+                    }
+                  ],
+                  "link": "/services/career-support"
+                }
+              ]
+            },
+            "process": {
+              "subtitle": "OUR PROCESS",
+              "title_line1": "Simple & ",
+              "title_highlight": "Effective",
+              "description": "We follow a structured and transparent process to connect the right people with the right opportunities.",
+              "steps": [
+                {
+                  "number": "01",
+                  "title": "Understanding Your Needs",
+                  "description": "We analyze your requirements to understand the specific skills you're looking for.",
+                  "icon": "FileSearch"
+                },
+                {
+                  "number": "02",
+                  "title": "Sourcing & Screening",
+                  "description": "We carefully screen and review the candidates from our vast network to evaluate their skills and experience and align with you.",
+                  "icon": "Users"
+                },
+                {
+                  "number": "03",
+                  "title": "Interviews & Shortlisting",
+                  "description": "We conduct interviews and facilitate assignments to evaluate their practical skills to find the right candidate for your team.",
+                  "icon": "Video"
+                },
+                {
+                  "number": "04",
+                  "title": "Hiring & Onboarding",
+                  "description": "We assist with final selections and ensure a smooth onboarding process for long-term success.",
+                  "icon": "Handshake"
+                }
+              ]
+            },
+            "testimonials": {
+              "subtitle": "TESTIMONIALS",
+              "title_line1": "Trusted by businesses driven by ",
+              "title_highlight": "success stories",
+              "button": {
+                "text": "View All Reviews",
+                "href": "/reviews"
+              },
+              "reviews": [
+                {
+                  "text": "This agency transformed our hiring process, providing top-tier talent quickly and efficiently. Their expertise and dedication have been invaluable to our growth!",
+                  "author": "David Warner",
+                  "role": "CEO, TechInnovate",
+                  "avatar": "/testimonails/David.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "We were struggling to find specialized developers. TalentBridge not only found the perfect fit but also guided us through the entire onboarding process seamlessly.",
+                  "author": "Emma Watson",
+                  "role": "CTO, NextGen Systems",
+                  "avatar": "/testimonails/emma.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "The level of professionalism and the quality of candidates presented to us were outstanding. It saved us countless hours of screening.",
+                  "author": "Michael Scott",
+                  "role": "Regional Manager, Dunder Mifflin",
+                  "avatar": "/testimonails/michael.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "I appreciate their dedication to understanding our company culture before recommending anyone. Every hire has been a fantastic addition to the team.",
+                  "author": "Sophia Loren",
+                  "role": "Director of HR, Global Corp",
+                  "avatar": "/testimonails/sophia.webp",
+                  "rating": 5
+                }
+              ]
+            },
+            "stats": {
+              "items": [
+                {
+                  "value": "12+",
+                  "label": "Years of Experience"
+                },
+                {
+                  "value": "98%",
+                  "label": "Client Retention Rate"
+                },
+                {
+                  "value": "200+",
+                  "label": "Projects Completed"
+                },
+                {
+                  "value": "1250",
+                  "label": "Employees Employed"
+                }
+              ]
+            },
+            "blog": {
+              "subtitle": "BLOG",
+              "title_line1": "Latest News & ",
+              "title_highlight": "Insights",
+              "description": "Stay updated with the latest trends, industry insights and career tips from the recruitment industry.",
+              "button": {
+                "text": "View All Blogs",
+                "href": "/blog"
+              },
+              "posts": [
+                {
+                  "image": "/blog/blog_1.webp",
+                  "date": "Apr 2, 2024",
+                  "author": "Ethan Smith",
+                  "title": "Get the Scoop: Our Latest News & Announcements",
+                  "description": "Whether you're looking to navigate your career path or enhance your hiring strategy, stay informed with our latest news and announcements.",
+                  "link": "/blog/remote-work",
+                  "slug": "remote-work",
+                  "details": {
+                    "titleLine1": "Get the Scoop: Our Latest",
+                    "titleHighlight": "News & Announcements",
+                    "intro": [
+                      "At TalentBridge, we are constantly evolving to serve job seekers and employers better. From new service launches and technology upgrades to expanded industry coverage, our latest updates are designed to make hiring faster, smarter and more transparent for everyone involved.",
+                      "Over the past few months, we have strengthened our recruitment teams, onboarded new enterprise partners and introduced improved candidate screening workflows. These changes help us deliver higher-quality shortlists and a smoother experience from first conversation to final offer."
+                    ],
+                    "quote": "Our mission is simple: connect the right talent with the right opportunity. Every update we make is focused on creating better outcomes for candidates and businesses alike.",
+                    "afterQuote": "We believe staying informed helps you make better career and hiring decisions. That is why we share regular updates on our services, partnerships and the trends we see across the recruitment market.",
+                    "section": {
+                      "titleLine1": "What’s New at",
+                      "titleHighlight": "TalentBridge",
+                      "intro": "Here are some of the key updates we have rolled out recently to improve how we hire and support talent.",
+                      "points": [
+                        "Launched dedicated IT and Non-IT recruitment desks with domain-specialist recruiters.",
+                        "Introduced faster screening workflows to share qualified profiles within 48–72 hours.",
+                        "Expanded our pan-India network to cover more tier-2 and tier-3 cities.",
+                        "Added career support services including resume reviews and mock interviews.",
+                        "Strengthened compliance and background verification for every placement."
+                      ],
+                      "outro": "Stay tuned to our blog for more announcements, success stories and insights as we continue to grow and improve our services for you."
+                    }
+                  }
+                },
+                {
+                  "image": "/blog/blog_2.webp",
+                  "date": "Apr 2, 2024",
+                  "author": "Ethan Smith",
+                  "title": "Industry Insights: Latest News & Developments",
+                  "description": "Our blog serves as a valuable resource for both job seekers and employers, covering industry trends, hiring tips and workplace insights.",
+                  "link": "/blog/top-skills",
+                  "slug": "top-skills",
+                  "details": {
+                    "titleLine1": "Industry Insights: Latest",
+                    "titleHighlight": "News & Developments",
+                    "intro": [
+                      "The recruitment industry is changing faster than ever. Skills-based hiring, hybrid work, AI-powered tools and shifting candidate expectations are reshaping how companies attract and retain talent.",
+                      "For employers, understanding these developments is essential to building competitive hiring strategies. For job seekers, it means knowing which skills are in demand and how to position themselves in a crowded market."
+                    ],
+                    "quote": "Companies that adapt their hiring strategies to market trends consistently attract better talent, fill roles faster and build stronger, future-ready teams.",
+                    "afterQuote": "Our recruiters work across industries every day, giving us a clear view of which roles are growing, which skills are scarce and what candidates value most when choosing an employer.",
+                    "section": {
+                      "titleLine1": "Key Trends Shaping",
+                      "titleHighlight": "Hiring Today",
+                      "intro": "These are the developments we see having the biggest impact on recruitment right now.",
+                      "points": [
+                        "Skills-based hiring is replacing strict degree requirements for many roles.",
+                        "Hybrid and flexible work options are now a top factor for candidates.",
+                        "Demand for data, cloud, cybersecurity and AI skills continues to rise.",
+                        "Faster hiring processes are critical to avoid losing top candidates.",
+                        "Employer branding and candidate experience strongly influence offer acceptance."
+                      ],
+                      "outro": "Keeping up with these trends helps both employers and professionals make smarter decisions and stay ahead in a competitive talent market."
+                    }
+                  }
+                },
+                {
+                  "image": "/blog/blog_1.webp",
+                  "date": "Apr 2, 2024",
+                  "author": "Ethan Smith",
+                  "title": "Top Hiring Trends Every Employer Should Know",
+                  "description": "From skills-based hiring to flexible work models, discover the recruitment trends shaping how companies attract and retain great talent.",
+                  "link": "/blog/hiring-trends-2024",
+                  "slug": "hiring-trends-2024",
+                  "details": {
+                    "titleLine1": "Top Hiring Trends Every",
+                    "titleHighlight": "Employer Should Know",
+                    "intro": [
+                      "Hiring the right people has never been more important — or more challenging. As talent markets tighten and candidate expectations rise, employers need to rethink how they source, assess and engage talent.",
+                      "From data-driven decision making to stronger employer branding, the most successful organisations are embracing new approaches that make their hiring faster, fairer and more effective."
+                    ],
+                    "quote": "The best employers no longer just fill vacancies — they build talent pipelines, invest in candidate experience and make hiring a strategic priority.",
+                    "afterQuote": "Understanding these trends allows you to plan ahead, budget accurately and compete effectively for the professionals your business needs to grow.",
+                    "section": {
+                      "titleLine1": "Trends to",
+                      "titleHighlight": "Act On Now",
+                      "intro": "Here are practical hiring trends you can start applying in your organisation today.",
+                      "points": [
+                        "Build proactive talent pipelines instead of hiring only when roles open.",
+                        "Use structured interviews and assessments to reduce bias and improve quality.",
+                        "Offer clear growth paths and learning opportunities in every job description.",
+                        "Shorten time-to-hire by streamlining approvals and interview rounds.",
+                        "Partner with specialist recruiters for niche and leadership roles."
+                      ],
+                      "outro": "Employers who act on these trends are better positioned to attract top talent, reduce turnover and build high-performing teams."
+                    }
+                  }
+                },
+                {
+                  "image": "/blog/blog_2.webp",
+                  "date": "Apr 2, 2024",
+                  "author": "Ethan Smith",
+                  "title": "Resume Tips That Get You Noticed by Recruiters",
+                  "description": "Simple, practical changes to your resume that help you stand out, pass screening tools and land more interview calls.",
+                  "link": "/blog/resume-tips",
+                  "slug": "resume-tips",
+                  "details": {
+                    "titleLine1": "Resume Tips That Get You",
+                    "titleHighlight": "Noticed by Recruiters",
+                    "intro": [
+                      "Recruiters often spend less than a minute scanning a resume before deciding whether to move forward. A clear, focused and well-structured resume can make the difference between getting shortlisted and being overlooked.",
+                      "The good news is that a few simple improvements can dramatically increase your chances of landing interviews — without rewriting your entire career story."
+                    ],
+                    "quote": "Your resume is your first impression. Make it easy for recruiters to see your value, your achievements and why you are the right fit for the role.",
+                    "afterQuote": "Tailoring your resume for each application and highlighting measurable results helps you stand out from candidates with similar experience.",
+                    "section": {
+                      "titleLine1": "Simple Tips for a",
+                      "titleHighlight": "Winning Resume",
+                      "intro": "Use these proven tips to make your resume recruiter-friendly and ATS-ready.",
+                      "points": [
+                        "Start with a short professional summary tailored to the target role.",
+                        "Highlight achievements with numbers, such as revenue, savings or growth.",
+                        "Use relevant keywords from the job description to pass ATS screening.",
+                        "Keep formatting clean and consistent with clear section headings.",
+                        "Limit your resume to one or two pages focused on recent experience."
+                      ],
+                      "outro": "A strong resume opens doors. Combine it with a polished LinkedIn profile to maximise your visibility with recruiters and hiring managers."
+                    }
+                  }
+                },
+                {
+                  "image": "/blog/blog_1.webp",
+                  "date": "Apr 2, 2024",
+                  "author": "Ethan Smith",
+                  "title": "How to Prepare for Your Next Job Interview",
+                  "description": "A step-by-step guide to researching the company, answering common questions confidently and leaving a lasting impression.",
+                  "link": "/blog/interview-preparation",
+                  "slug": "interview-preparation",
+                  "details": {
+                    "titleLine1": "How to Prepare for Your",
+                    "titleHighlight": "Next Job Interview",
+                    "intro": [
+                      "Interviews can feel stressful, but good preparation turns nerves into confidence. Knowing the company, understanding the role and practising your answers helps you present your best self.",
+                      "Whether it is a phone screening, video call or in-person panel, the right preparation strategy will help you communicate clearly and leave a lasting impression."
+                    ],
+                    "quote": "Preparation is the key to confidence. Candidates who research, practise and ask thoughtful questions consistently perform better in interviews.",
+                    "afterQuote": "Remember that an interview is a two-way conversation. It is also your opportunity to learn whether the company, team and role are the right fit for you.",
+                    "section": {
+                      "titleLine1": "Your Interview",
+                      "titleHighlight": "Preparation Checklist",
+                      "intro": "Follow these steps before your next interview to walk in prepared and confident.",
+                      "points": [
+                        "Research the company’s products, culture, recent news and competitors.",
+                        "Match your experience to the key requirements in the job description.",
+                        "Practise answers to common questions using the STAR method.",
+                        "Prepare two or three thoughtful questions to ask the interviewer.",
+                        "Plan your outfit, route or tech setup in advance to avoid last-minute stress."
+                      ],
+                      "outro": "After the interview, send a short thank-you message and reflect on what went well. Every interview is a chance to learn and improve."
+                    }
+                  }
+                },
+                {
+                  "image": "/blog/blog_2.webp",
+                  "date": "Apr 2, 2024",
+                  "author": "Ethan Smith",
+                  "title": "Building a Strong Employer Brand to Attract Talent",
+                  "description": "Learn how culture, values and candidate experience work together to make your company the first choice for top professionals.",
+                  "link": "/blog/employer-branding",
+                  "slug": "employer-branding",
+                  "details": {
+                    "titleLine1": "Building a Strong Employer",
+                    "titleHighlight": "Brand to Attract Talent",
+                    "intro": [
+                      "Top candidates research companies just as carefully as companies evaluate candidates. Your employer brand — how people perceive you as a place to work — directly impacts the quality and quantity of applicants you attract.",
+                      "A strong employer brand reduces hiring costs, shortens time-to-hire and improves retention by attracting people who genuinely align with your values and culture."
+                    ],
+                    "quote": "Your employer brand is the promise you make to your people. When that promise is authentic and consistently delivered, great talent follows.",
+                    "afterQuote": "Building an employer brand is not just a marketing exercise. It starts with real employee experiences and is reinforced at every candidate touchpoint.",
+                    "section": {
+                      "titleLine1": "Ways to Strengthen Your",
+                      "titleHighlight": "Employer Brand",
+                      "intro": "These practical steps can help you build an employer brand that attracts and retains top talent.",
+                      "points": [
+                        "Define a clear employee value proposition that reflects your culture.",
+                        "Share real employee stories and achievements on your website and social media.",
+                        "Create a smooth, respectful and transparent candidate experience.",
+                        "Encourage reviews and feedback from current and former employees.",
+                        "Invest in learning, wellbeing and recognition programs your people value."
+                      ],
+                      "outro": "A strong employer brand becomes a long-term competitive advantage, helping you win the talent you need to grow."
+                    }
+                  }
+                },
+                {
+                  "image": "/blog/blog_1.webp",
+                  "date": "Apr 2, 2024",
+                  "author": "Ethan Smith",
+                  "title": "Contract vs Permanent Hiring: What Fits Your Business?",
+                  "description": "Understand the benefits, costs and use cases of contract and permanent staffing to choose the right model for every role.",
+                  "link": "/blog/contract-vs-permanent",
+                  "slug": "contract-vs-permanent",
+                  "details": {
+                    "titleLine1": "Contract vs Permanent Hiring:",
+                    "titleHighlight": "What Fits Your Business?",
+                    "intro": [
+                      "Choosing between contract and permanent hiring is one of the most important workforce decisions a business can make. Each model offers different benefits in terms of cost, flexibility, speed and long-term value.",
+                      "The right choice depends on your project timelines, budget, skill requirements and growth plans. Many successful companies use a mix of both to stay agile while building a strong core team."
+                    ],
+                    "quote": "There is no one-size-fits-all answer. The smartest workforce strategies combine permanent talent for core roles with contract talent for flexibility and specialised needs.",
+                    "afterQuote": "Understanding the strengths of each model helps you plan headcount more effectively and respond quickly to changing business demands.",
+                    "section": {
+                      "titleLine1": "How to Choose the",
+                      "titleHighlight": "Right Model",
+                      "intro": "Consider these factors when deciding between contract and permanent hiring.",
+                      "points": [
+                        "Use permanent hiring for core, long-term roles central to your business.",
+                        "Choose contract staffing for projects, seasonal peaks or uncertain demand.",
+                        "Consider contract-to-hire to evaluate fit before making a permanent offer.",
+                        "Factor in total cost, including benefits, compliance and onboarding.",
+                        "Partner with a staffing expert to manage payroll and compliance for contractors."
+                      ],
+                      "outro": "With the right mix of contract and permanent talent, you can control costs, stay flexible and still build a committed, high-performing team."
+                    }
+                  }
+                },
+                {
+                  "image": "/blog/blog_2.webp",
+                  "date": "Apr 2, 2024",
+                  "author": "Ethan Smith",
+                  "title": "Employee Retention Strategies That Actually Work",
+                  "description": "Proven ways to keep your best people engaged, motivated and growing with your organisation for the long term.",
+                  "link": "/blog/retention-strategies",
+                  "slug": "retention-strategies",
+                  "details": {
+                    "titleLine1": "Employee Retention Strategies",
+                    "titleHighlight": "That Actually Work",
+                    "intro": [
+                      "Hiring great people is only half the battle — keeping them is just as important. High employee turnover increases costs, disrupts teams and affects customer experience.",
+                      "Effective retention strategies focus on what employees truly value: growth, recognition, fair pay, flexibility and a positive work culture. Small, consistent improvements in these areas can make a big difference."
+                    ],
+                    "quote": "People do not leave companies, they leave experiences. Create an environment where employees feel valued, supported and inspired, and they will stay.",
+                    "afterQuote": "Regular check-ins, honest feedback and clear career paths help employees see a future with your organisation and stay engaged for the long term.",
+                    "section": {
+                      "titleLine1": "Proven Ways to",
+                      "titleHighlight": "Retain Top Talent",
+                      "intro": "These strategies help organisations reduce turnover and build loyal, motivated teams.",
+                      "points": [
+                        "Offer clear career growth paths and regular learning opportunities.",
+                        "Recognise and reward achievements publicly and consistently.",
+                        "Provide competitive pay, benefits and flexible work options.",
+                        "Train managers to lead with empathy, feedback and support.",
+                        "Conduct stay interviews to understand and address concerns early."
+                      ],
+                      "outro": "When employees feel supported and appreciated, they perform better, stay longer and become ambassadors for your brand."
+                    }
+                  }
+                }
+              ]
+            },
+            "mission_vision": {
+              "subtitle": "OUR MISSION / VISION",
+              "title_line1": "Empowering talent, shaping ",
+              "title_highlight": "brighter futures",
+              "description": "We envision a world where businesses and individuals thrive together by connecting the right talent with the right opportunities, fostering growth, innovation and long-term success.",
+              "button": {
+                "text": "Learn More",
+                "href": "/about"
+              },
+              "mission": {
+                "title": "Our Mission",
+                "description": "We nurture, develop, and empower talent through training, guidance and strategic recruitment solutions to create meaningful opportunities for individuals and businesses."
+              },
+              "vision": {
+                "title": "Our Vision",
+                "description": "To be a trusted recruitment partner globally, known for bringing talent with opportunity, helping people grow, and making organizations build stronger, more successful teams."
+              },
+              "image": "/img/missino.png"
+            },
+            "why_choose_us": {
+              "subtitle": "WHY CHOOSE US",
+              "title_line1": "Your Trusted Partner for Hiring ",
+              "title_highlight": "Success",
+              "description": "We help businesses find the right talent and build stronger teams with innovative, reliable and result-driven recruitment solutions.",
+              "image1": "/img/h2.webp",
+              "image2": "/img/h1.webp",
+              "badge_text": "TRUSTED RECRUITMENT PARTNER",
+              "features": [
+                {
+                  "icon": "Users",
+                  "title": "Expert Recruiters",
+                  "description": "Access to a wide pool of qualified and pre-screened candidates."
+                },
+                {
+                  "icon": "Target",
+                  "title": "Customized Hiring Solutions",
+                  "description": "Tailored strategies to meet your unique business needs."
+                },
+                {
+                  "icon": "Zap",
+                  "title": "Faster Turnaround Time",
+                  "description": "Streamlined hiring process to save your time and effort."
+                },
+                {
+                  "icon": "Building",
+                  "title": "Industry Expertise",
+                  "description": "Deep understanding of industry trends and talent demands."
+                },
+                {
+                  "icon": "ShieldCheck",
+                  "title": "End-to-End Support",
+                  "description": "From talent sourcing to onboarding, we'll guide you at every step."
+                },
+                {
+                  "icon": "Handshake",
+                  "title": "Long-Term Partnerships",
+                  "description": "Committed to helping you build high performing teams for lasting success."
+                }
+              ]
+            },
+            "jobs": {
+              "subtitle": "CAREERS",
+              "title_line1": "Join Our ",
+              "title_highlight": "Growing Team",
+              "description": "Explore exciting career opportunities and take the next step in your professional journey with a company that values people, growth, and innovation.",
+              "list": [
+                {
+                  "image": "/jobs/1.png",
+                  "title": "HR Executive",
+                  "type": "Full Time",
+                  "description": "Manage recruitment, employee engagement and HR operations to support our growing team.",
+                  "location": "Noida, UP",
+                  "experience": "1 - 3 Years",
+                  "slug": "hr-executive",
+                  "postedOn": "Apr 2, 2024",
+                  "responsibilities": [
+                    "Manage end-to-end recruitment process including job posting, screening, and interviews.",
+                    "Coordinate with department heads to understand hiring requirements.",
+                    "Maintain employee records and HR databases.",
+                    "Support onboarding and orientation of new employees.",
+                    "Assist in employee engagement activities and HR initiatives.",
+                    "Handle employee queries and resolve issues in a professional manner.",
+                    "Ensure compliance with company policies and labor laws."
+                  ],
+                  "qualifications": [
+                    "Bachelor's degree in Human Resources, Business Administration, or a related field.",
+                    "1 - 3 years of relevant HR experience.",
+                    "Strong communication and interpersonal skills.",
+                    "Good organizational and time management skills.",
+                    "Knowledge of HR policies and labor laws.",
+                    "Proficiency in MS Office (Word, Excel, Outlook).",
+                    "Ability to handle multiple tasks and work in a team.",
+                    "Positive attitude and a passion for people management."
+                  ]
+                },
+                {
+                  "image": "/jobs/2.png",
+                  "title": "Business Executive",
+                  "type": "Full Time",
+                  "description": "Identify new business opportunities and build strong client relationships.",
+                  "location": "Noida, UP",
+                  "experience": "2 - 4 Years",
+                  "slug": "business-executive",
+                  "postedOn": "Apr 2, 2024",
+                  "responsibilities": [
+                    "Manage end-to-end recruitment process including job posting, screening, and interviews.",
+                    "Coordinate with department heads to understand hiring requirements.",
+                    "Maintain employee records and HR databases.",
+                    "Support onboarding and orientation of new employees.",
+                    "Assist in employee engagement activities and HR initiatives.",
+                    "Handle employee queries and resolve issues in a professional manner.",
+                    "Ensure compliance with company policies and labor laws."
+                  ],
+                  "qualifications": [
+                    "Bachelor's degree in Human Resources, Business Administration, or a related field.",
+                    "1 - 3 years of relevant HR experience.",
+                    "Strong communication and interpersonal skills.",
+                    "Good organizational and time management skills.",
+                    "Knowledge of HR policies and labor laws.",
+                    "Proficiency in MS Office (Word, Excel, Outlook).",
+                    "Ability to handle multiple tasks and work in a team.",
+                    "Positive attitude and a passion for people management."
+                  ]
+                },
+                {
+                  "image": "/jobs/3.png",
+                  "title": "Content Writer",
+                  "type": "Full Time",
+                  "description": "Create engaging content for our website, blogs and marketing campaigns.",
+                  "location": "Noida, UP",
+                  "experience": "1 - 3 Years",
+                  "slug": "content-writer",
+                  "postedOn": "Apr 2, 2024",
+                  "responsibilities": [
+                    "Manage end-to-end recruitment process including job posting, screening, and interviews.",
+                    "Coordinate with department heads to understand hiring requirements.",
+                    "Maintain employee records and HR databases.",
+                    "Support onboarding and orientation of new employees.",
+                    "Assist in employee engagement activities and HR initiatives.",
+                    "Handle employee queries and resolve issues in a professional manner.",
+                    "Ensure compliance with company policies and labor laws."
+                  ],
+                  "qualifications": [
+                    "Bachelor's degree in Human Resources, Business Administration, or a related field.",
+                    "1 - 3 years of relevant HR experience.",
+                    "Strong communication and interpersonal skills.",
+                    "Good organizational and time management skills.",
+                    "Knowledge of HR policies and labor laws.",
+                    "Proficiency in MS Office (Word, Excel, Outlook).",
+                    "Ability to handle multiple tasks and work in a team.",
+                    "Positive attitude and a passion for people management."
+                  ]
+                },
+                {
+                  "image": "/jobs/4.png",
+                  "title": "Digital Marketing",
+                  "type": "Full Time",
+                  "description": "Plan and execute digital marketing strategies to increase brand awareness and lead generation.",
+                  "location": "Noida, UP",
+                  "experience": "2 - 4 Years",
+                  "slug": "digital-marketing",
+                  "postedOn": "Apr 2, 2024",
+                  "responsibilities": [
+                    "Manage end-to-end recruitment process including job posting, screening, and interviews.",
+                    "Coordinate with department heads to understand hiring requirements.",
+                    "Maintain employee records and HR databases.",
+                    "Support onboarding and orientation of new employees.",
+                    "Assist in employee engagement activities and HR initiatives.",
+                    "Handle employee queries and resolve issues in a professional manner.",
+                    "Ensure compliance with company policies and labor laws."
+                  ],
+                  "qualifications": [
+                    "Bachelor's degree in Human Resources, Business Administration, or a related field.",
+                    "1 - 3 years of relevant HR experience.",
+                    "Strong communication and interpersonal skills.",
+                    "Good organizational and time management skills.",
+                    "Knowledge of HR policies and labor laws.",
+                    "Proficiency in MS Office (Word, Excel, Outlook).",
+                    "Ability to handle multiple tasks and work in a team.",
+                    "Positive attitude and a passion for people management."
+                  ]
+                },
+                {
+                  "image": "/jobs/5.png",
+                  "title": "Graphic Designer",
+                  "type": "Full Time",
+                  "description": "Design creative visuals for website, social media and marketing materials.",
+                  "location": "Noida, UP",
+                  "experience": "1 - 3 Years",
+                  "slug": "graphic-designer",
+                  "postedOn": "Apr 2, 2024",
+                  "responsibilities": [
+                    "Manage end-to-end recruitment process including job posting, screening, and interviews.",
+                    "Coordinate with department heads to understand hiring requirements.",
+                    "Maintain employee records and HR databases.",
+                    "Support onboarding and orientation of new employees.",
+                    "Assist in employee engagement activities and HR initiatives.",
+                    "Handle employee queries and resolve issues in a professional manner.",
+                    "Ensure compliance with company policies and labor laws."
+                  ],
+                  "qualifications": [
+                    "Bachelor's degree in Human Resources, Business Administration, or a related field.",
+                    "1 - 3 years of relevant HR experience.",
+                    "Strong communication and interpersonal skills.",
+                    "Good organizational and time management skills.",
+                    "Knowledge of HR policies and labor laws.",
+                    "Proficiency in MS Office (Word, Excel, Outlook).",
+                    "Ability to handle multiple tasks and work in a team.",
+                    "Positive attitude and a passion for people management."
+                  ]
+                },
+                {
+                  "image": "/jobs/6.png",
+                  "title": "Web Developer",
+                  "type": "Full Time",
+                  "description": "Develop and maintain responsive websites using modern technologies.",
+                  "location": "Noida, UP",
+                  "experience": "2 - 5 Years",
+                  "slug": "web-developer",
+                  "postedOn": "Apr 2, 2024",
+                  "responsibilities": [
+                    "Manage end-to-end recruitment process including job posting, screening, and interviews.",
+                    "Coordinate with department heads to understand hiring requirements.",
+                    "Maintain employee records and HR databases.",
+                    "Support onboarding and orientation of new employees.",
+                    "Assist in employee engagement activities and HR initiatives.",
+                    "Handle employee queries and resolve issues in a professional manner.",
+                    "Ensure compliance with company policies and labor laws."
+                  ],
+                  "qualifications": [
+                    "Bachelor's degree in Human Resources, Business Administration, or a related field.",
+                    "1 - 3 years of relevant HR experience.",
+                    "Strong communication and interpersonal skills.",
+                    "Good organizational and time management skills.",
+                    "Knowledge of HR policies and labor laws.",
+                    "Proficiency in MS Office (Word, Excel, Outlook).",
+                    "Ability to handle multiple tasks and work in a team.",
+                    "Positive attitude and a passion for people management."
+                  ]
+                },
+                {
+                  "image": "/jobs/7.png",
+                  "title": "Project Manager",
+                  "type": "Full Time",
+                  "description": "Coordinate projects, manage timelines and ensure successful delivery of client projects.",
+                  "location": "Noida, UP",
+                  "experience": "3 - 6 Years",
+                  "slug": "project-manager",
+                  "postedOn": "Apr 2, 2024",
+                  "responsibilities": [
+                    "Manage end-to-end recruitment process including job posting, screening, and interviews.",
+                    "Coordinate with department heads to understand hiring requirements.",
+                    "Maintain employee records and HR databases.",
+                    "Support onboarding and orientation of new employees.",
+                    "Assist in employee engagement activities and HR initiatives.",
+                    "Handle employee queries and resolve issues in a professional manner.",
+                    "Ensure compliance with company policies and labor laws."
+                  ],
+                  "qualifications": [
+                    "Bachelor's degree in Human Resources, Business Administration, or a related field.",
+                    "1 - 3 years of relevant HR experience.",
+                    "Strong communication and interpersonal skills.",
+                    "Good organizational and time management skills.",
+                    "Knowledge of HR policies and labor laws.",
+                    "Proficiency in MS Office (Word, Excel, Outlook).",
+                    "Ability to handle multiple tasks and work in a team.",
+                    "Positive attitude and a passion for people management."
+                  ]
+                },
+                {
+                  "image": "/jobs/8.png",
+                  "title": "Sales Executive",
+                  "type": "Full Time",
+                  "description": "Drive sales growth by connecting with potential clients and understanding their needs.",
+                  "location": "Noida, UP",
+                  "experience": "1 - 3 Years",
+                  "slug": "sales-executive",
+                  "postedOn": "Apr 2, 2024",
+                  "responsibilities": [
+                    "Manage end-to-end recruitment process including job posting, screening, and interviews.",
+                    "Coordinate with department heads to understand hiring requirements.",
+                    "Maintain employee records and HR databases.",
+                    "Support onboarding and orientation of new employees.",
+                    "Assist in employee engagement activities and HR initiatives.",
+                    "Handle employee queries and resolve issues in a professional manner.",
+                    "Ensure compliance with company policies and labor laws."
+                  ],
+                  "qualifications": [
+                    "Bachelor's degree in Human Resources, Business Administration, or a related field.",
+                    "1 - 3 years of relevant HR experience.",
+                    "Strong communication and interpersonal skills.",
+                    "Good organizational and time management skills.",
+                    "Knowledge of HR policies and labor laws.",
+                    "Proficiency in MS Office (Word, Excel, Outlook).",
+                    "Ability to handle multiple tasks and work in a team.",
+                    "Positive attitude and a passion for people management."
+                  ]
+                },
+                {
+                  "image": "/jobs/9.png",
+                  "title": "Customer Support",
+                  "type": "Full Time",
+                  "description": "Provide excellent customer support and resolve client queries effectively.",
+                  "location": "Noida, UP",
+                  "experience": "1 - 3 Years",
+                  "slug": "customer-support",
+                  "postedOn": "Apr 2, 2024",
+                  "responsibilities": [
+                    "Manage end-to-end recruitment process including job posting, screening, and interviews.",
+                    "Coordinate with department heads to understand hiring requirements.",
+                    "Maintain employee records and HR databases.",
+                    "Support onboarding and orientation of new employees.",
+                    "Assist in employee engagement activities and HR initiatives.",
+                    "Handle employee queries and resolve issues in a professional manner.",
+                    "Ensure compliance with company policies and labor laws."
+                  ],
+                  "qualifications": [
+                    "Bachelor's degree in Human Resources, Business Administration, or a related field.",
+                    "1 - 3 years of relevant HR experience.",
+                    "Strong communication and interpersonal skills.",
+                    "Good organizational and time management skills.",
+                    "Knowledge of HR policies and labor laws.",
+                    "Proficiency in MS Office (Word, Excel, Outlook).",
+                    "Ability to handle multiple tasks and work in a team.",
+                    "Positive attitude and a passion for people management."
+                  ]
+                },
+                {
+                  "image": "/jobs/1.png",
+                  "title": "Data Analyst",
+                  "type": "Full Time",
+                  "description": "Analyze business data to find actionable insights and help make informed decisions.",
+                  "location": "Delhi, NCR",
+                  "experience": "2 - 4 Years",
+                  "slug": "data-analyst",
+                  "postedOn": "Apr 2, 2024",
+                  "responsibilities": [
+                    "Manage end-to-end recruitment process including job posting, screening, and interviews.",
+                    "Coordinate with department heads to understand hiring requirements.",
+                    "Maintain employee records and HR databases.",
+                    "Support onboarding and orientation of new employees.",
+                    "Assist in employee engagement activities and HR initiatives.",
+                    "Handle employee queries and resolve issues in a professional manner.",
+                    "Ensure compliance with company policies and labor laws."
+                  ],
+                  "qualifications": [
+                    "Bachelor's degree in Human Resources, Business Administration, or a related field.",
+                    "1 - 3 years of relevant HR experience.",
+                    "Strong communication and interpersonal skills.",
+                    "Good organizational and time management skills.",
+                    "Knowledge of HR policies and labor laws.",
+                    "Proficiency in MS Office (Word, Excel, Outlook).",
+                    "Ability to handle multiple tasks and work in a team.",
+                    "Positive attitude and a passion for people management."
+                  ]
+                },
+                {
+                  "image": "/jobs/2.png",
+                  "title": "UI/UX Designer",
+                  "type": "Full Time",
+                  "description": "Create user-friendly interfaces and engaging experiences for our digital products.",
+                  "location": "Noida, UP",
+                  "experience": "3 - 5 Years",
+                  "slug": "ui-ux-designer",
+                  "postedOn": "Apr 2, 2024",
+                  "responsibilities": [
+                    "Manage end-to-end recruitment process including job posting, screening, and interviews.",
+                    "Coordinate with department heads to understand hiring requirements.",
+                    "Maintain employee records and HR databases.",
+                    "Support onboarding and orientation of new employees.",
+                    "Assist in employee engagement activities and HR initiatives.",
+                    "Handle employee queries and resolve issues in a professional manner.",
+                    "Ensure compliance with company policies and labor laws."
+                  ],
+                  "qualifications": [
+                    "Bachelor's degree in Human Resources, Business Administration, or a related field.",
+                    "1 - 3 years of relevant HR experience.",
+                    "Strong communication and interpersonal skills.",
+                    "Good organizational and time management skills.",
+                    "Knowledge of HR policies and labor laws.",
+                    "Proficiency in MS Office (Word, Excel, Outlook).",
+                    "Ability to handle multiple tasks and work in a team.",
+                    "Positive attitude and a passion for people management."
+                  ]
+                },
+                {
+                  "image": "/jobs/3.png",
+                  "title": "Software Engineer",
+                  "type": "Full Time",
+                  "description": "Build scalable software solutions and maintain internal tools.",
+                  "location": "Gurgaon, HR",
+                  "experience": "2 - 5 Years",
+                  "slug": "software-engineer",
+                  "postedOn": "Apr 2, 2024",
+                  "responsibilities": [
+                    "Manage end-to-end recruitment process including job posting, screening, and interviews.",
+                    "Coordinate with department heads to understand hiring requirements.",
+                    "Maintain employee records and HR databases.",
+                    "Support onboarding and orientation of new employees.",
+                    "Assist in employee engagement activities and HR initiatives.",
+                    "Handle employee queries and resolve issues in a professional manner.",
+                    "Ensure compliance with company policies and labor laws."
+                  ],
+                  "qualifications": [
+                    "Bachelor's degree in Human Resources, Business Administration, or a related field.",
+                    "1 - 3 years of relevant HR experience.",
+                    "Strong communication and interpersonal skills.",
+                    "Good organizational and time management skills.",
+                    "Knowledge of HR policies and labor laws.",
+                    "Proficiency in MS Office (Word, Excel, Outlook).",
+                    "Ability to handle multiple tasks and work in a team.",
+                    "Positive attitude and a passion for people management."
+                  ]
+                }
+              ]
+            },
+            "jobDetails": {
+              "subtitle": "JOB DETAILS",
+              "intro": "Join our team as an {title} and be a part of a dynamic organization where people, growth, and opportunities come together.",
+              "infoLabels": {
+                "type": "Job Type",
+                "location": "Location",
+                "experience": "Experience",
+                "postedOn": "Posted On"
+              },
+              "overview": {
+                "title": "Job Overview",
+                "text": "We are looking for a dynamic and motivated professional to join our team. The ideal candidate will be responsible for managing operations and supporting various initiatives. This role is perfect for someone who is passionate, has excellent communication skills, and wants to grow their career in a fast-paced and collaborative environment."
+              },
+              "responsibilitiesTitle": "Key Responsibilities",
+              "qualificationsTitle": "Qualifications & Skills",
+              "form": {
+                "title": "Apply for this Position",
+                "description": "Fill out the form below and submit your application. Our team will get in touch with you soon.",
+                "fields": {
+                  "name": { "label": "Full Name *", "placeholder": "Enter your full name" },
+                  "email": { "label": "Email Address *", "placeholder": "Enter your email address" },
+                  "phone": { "label": "Phone Number *", "placeholder": "Enter your phone number" },
+                  "resume": { "label": "Upload Resume *", "button": "Choose File", "empty": "No file chosen" },
+                  "coverLetter": { "label": "Cover Letter (Optional)", "placeholder": "Write a short cover letter..." }
+                },
+                "submit": "Submit Application",
+                "disclaimer": "By submitting this form, you agree to our hiring process and",
+                "privacy": { "text": "privacy policy", "href": "/privacy-policy" }
+              },
+              "info": {
+                "title": "Job Information",
+                "labels": {
+                  "title": "Job Title:",
+                  "type": "Employment Type:",
+                  "location": "Location:",
+                  "experience": "Experience:",
+                  "postedOn": "Posted On:"
+                }
+              }
+            },
+            "team": {
+              "subtitle": "OUR TEAM",
+              "title_line1": "Meet Our ",
+              "title_highlight": "Expert Team",
+              "description": "Our experienced team is dedicated to connecting the right talent with the right opportunities, helping businesses build stronger teams and achieve long-term success.",
+              "members": [
+                {
+                  "name": "Ryan Carte",
+                  "role": "Hr Director",
+                  "image": "/team/1.png",
+                  "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
+                },
+                {
+                  "name": "James Mitchell",
+                  "role": "Talent Manager",
+                  "image": "/team/2.png",
+                  "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
+                },
+                {
+                  "name": "Ethan Brooks",
+                  "role": "Payroll Specialist",
+                  "image": "/team/3.png",
+                  "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
+                },
+                {
+                  "name": "Daniel Foster",
+                  "role": "Compliance Officer",
+                  "image": "/team/4.png",
+                  "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
+                },
+                {
+                  "name": "Sophia Reed",
+                  "role": "Recruitment Lead",
+                  "image": "/team/5.png",
+                  "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
+                },
+                {
+                  "name": "Emma Collins",
+                  "role": "Training Coordinator",
+                  "image": "/team/6.png",
+                  "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
+                },
+                {
+                  "name": "Olivia Hayes",
+                  "role": "Benefits Advisor",
+                  "image": "/team/7.png",
+                  "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
+                },
+                {
+                  "name": "Isabella Turner",
+                  "role": "Employee Relations",
+                  "image": "/team/8.png",
+                  "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
+                }
+              ]
+            },
+            "serviceDetails": {
+              "sidebarTitle": "Our Services",
+              "help": {
+                "title": "Need Assistance?",
+                "subtitle": "We're here to help you.",
+                "phone": "+100000000000",
+                "button": { "text": "Contact Us", "href": "/contact" }
+              }
+            },
+            "blogDetails": {
+              "subtitle": "BLOG DETAILS"
+            },
+            "faq": {
+              "subtitle": "FAQ",
+              "title_line1": "Frequently Asked ",
+              "title_highlight": "Questions",
+              "description": "Find quick answers to common questions about our services, process, and how we help businesses and talent grow together.",
+              "image": "/img/w2.png",
+              "help": {
+                "label": "STILL HAVE QUESTIONS?",
+                "title": "We're here to help!",
+                "text": "Can't find the answer you're looking for? Our team is ready to assist you.",
+                "button": { "text": "Contact Us", "href": "/contact" }
+              },
+              "items": [
+                {
+                  "question": "What services do you offer?",
+                  "answer": "We offer end-to-end recruitment and HR solutions including talent acquisition, workforce planning, employee training, compliance support, and more. Our services are designed to help businesses build stronger teams and achieve long-term success."
+                },
+                {
+                  "question": "How does your recruitment process work?",
+                  "answer": "We start by understanding your requirements, culture and goals. Our recruiters then source and screen candidates, coordinate interviews, collect feedback and support you through offer negotiation and onboarding."
+                },
+                {
+                  "question": "Which industries do you serve?",
+                  "answer": "We recruit across IT, BFSI, healthcare, manufacturing, retail, e-commerce, logistics, education, telecom and more, with dedicated recruiters who understand each industry's unique talent needs."
+                },
+                {
+                  "question": "How do you ensure the right candidate fit?",
+                  "answer": "Every candidate goes through skill assessments, structured interviews and background checks. We also evaluate cultural fit, career goals and stability so you meet people who are ready to succeed in your team."
+                },
+                {
+                  "question": "Do you offer customized staffing solutions?",
+                  "answer": "Yes. We offer permanent hiring, contract staffing, contract-to-hire, bulk hiring and RPO models, and tailor each engagement to your timelines, budget and hiring volume."
+                },
+                {
+                  "question": "How long does it take to fill a position?",
+                  "answer": "Most roles are filled within 2–4 weeks. We typically share the first set of qualified profiles within 48–72 hours, while niche and leadership roles may take a little longer."
+                },
+                {
+                  "question": "What makes your company different?",
+                  "answer": "Domain-specialist recruiters, a large pre-screened talent pool, transparent communication and a replacement guarantee make us a reliable long-term hiring partner rather than just a vendor."
+                },
+                {
+                  "question": "Do you provide ongoing support after placement?",
+                  "answer": "Absolutely. We stay in touch with both you and the candidate after joining to ensure smooth onboarding, and we offer free replacements within the guarantee period if a placement doesn't work out."
+                }
+              ]
+            },
+            "support": {
+              "subtitle": "MORE HELP",
+              "title_line1": "Other Ways to ",
+              "title_highlight": "Get Support",
+              "description": "Explore more resources or reach out to our team for personalized assistance.",
+              "items": [
+                {
+                  "icon": "MessageCircle",
+                  "title": "Live Chat",
+                  "text": "Chat with our support team for instant help.",
+                  "link": { "text": "Start Chat", "href": "/contact" }
+                },
+                {
+                  "icon": "Mail",
+                  "title": "Email Us",
+                  "text": "Send us your questions and we'll get back to you shortly.",
+                  "link": { "text": "info@xyz.com", "href": "mailto:info@xyz.com" }
+                },
+                {
+                  "icon": "Phone",
+                  "title": "Call Us",
+                  "text": "Speak directly with our team for immediate assistance.",
+                  "link": { "text": "+100000000000", "href": "tel:+100000000000" }
+                }
+              ]
+            },
+            "contact": {
+              "subtitle": "CONTACT US",
+              "title_line1": "Let's Start a ",
+              "title_highlight": "Conversation",
+              "description": "We're here to help! Reach out to discuss your hiring needs, ask questions, or learn more about how our HR solutions can support your business goals.",
+              "form": {
+                "label": "GET IN TOUCH",
+                "title_line1": "HR solutions made simple",
+                "title_highlight": "contact us today",
+                "text": "We connect talent with opportunity, fostering growth, success, and a brighter future for individuals and businesses alike.",
+                "fields": {
+                  "firstName": "First name *",
+                  "lastName": "Last name *",
+                  "phone": "Phone *",
+                  "email": "E-mail *",
+                  "message": "Write your message... *"
+                },
+                "button": "Send Message",
+                "success": "Thank you! Your message has been sent. Our team will get back to you shortly."
+              },
+              "map": {
+                "title": "TalentBridge office location - 123 Education Lane, New York",
+                "src": "https://www.google.com/maps?q=123%20Education%20Lane%2C%20New%20York%2C%20NY%2010001&output=embed"
+              },
+              "info": [
+                { "icon": "Mail", "title": "Email Us", "text": "info@xyz.com", "href": "mailto:info@xyz.com" },
+                { "icon": "Phone", "title": "Call Us", "text": "+100000000000", "href": "tel:+100000000000" },
+                { "icon": "MapPin", "title": "Visit Our Office", "text": "123 Education Lane, New York, NY 10001", "href": "https://maps.google.com/?q=123+Education+Lane+New+York", "wide": true }
+              ],
+              "cards": [
+                { "icon": "MessageCircle", "title": "Live Chat", "text": "Chat with our support team for instant help.", "link": { "text": "Start Chat", "href": "/contact" } },
+                { "icon": "Clock", "title": "Business Hours", "lines": ["Mon – Fri: 9:00 AM – 6:00 PM", "Sat – Sun: Closed"] },
+                { "icon": "Headset", "title": "Request a Callback", "text": "Prefer a call? We'll reach out at your convenience.", "link": { "text": "Request Now", "href": "tel:+100000000000" } },
+                { "icon": "FileText", "title": "Get a Free Consultation", "text": "Discuss your hiring needs with our experts.", "link": { "text": "Book a Call", "href": "mailto:info@xyz.com" } }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
