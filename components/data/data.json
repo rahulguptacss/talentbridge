@@ -28,7 +28,7 @@
     },
     "Header": {
       "logo_text": "TalentBridge",
-      "logo_image": "/logo/logo.png",
+      "logo_image": "/logo/logo.webp",
       "links": [
         {
           "name": "Home",
@@ -69,7 +69,7 @@
     },
     "Footer": {
       "logo_text": "TalentBridge",
-      "logo_image": "/logo/white-logo.png",
+      "logo_image": "/logo/white-logo.webp",
       "description": "Connecting the right talent with the right opportunities. We help businesses build stronger teams and careers grow faster.",
       "socials": [
         {
@@ -535,7 +535,7 @@
                   "title": "Contract Staffing",
                   "slug": "contract-staffing",
                   "description": "Flexible staffing solutions to meet your short-term and project-based requirements.",
-                  "image": "/img/w2.png",
+                  "image": "/img/w2.webp",
                   "hero": {
                     "tag": "FLEXIBLE",
                     "title1": "Contract",
@@ -574,7 +574,7 @@
                   "title": "Executive Search",
                   "slug": "executive-search",
                   "description": "Identify and attract top leadership talent for critical business roles.",
-                  "image": "/services/executive-search.png",
+                  "image": "/services/executive-search.webp",
                   "hero": {
                     "tag": "LEADERSHIP",
                     "title1": "Executive",
@@ -613,7 +613,7 @@
                   "title": "IT Recruitment",
                   "slug": "it-recruitment",
                   "description": "Skilled IT professionals to power your technology and digital transformation.",
-                  "image": "/services/it-recruitment.png",
+                  "image": "/services/it-recruitment.webp",
                   "hero": {
                     "tag": "TECHNOLOGY",
                     "title1": "IT",
@@ -652,7 +652,7 @@
                   "title": "Non-IT Recruitment",
                   "slug": "non-it-recruitment",
                   "description": "Hire qualified professionals across diverse industries and functions.",
-                  "image": "/img/missino.png",
+                  "image": "/img/missino.webp",
                   "hero": {
                     "tag": "ALL INDUSTRIES",
                     "title1": "Non-IT",
@@ -730,7 +730,7 @@
                   "title": "RPO Solutions",
                   "slug": "rpo-solutions",
                   "description": "End-to-end recruitment process outsourcing to streamline your hiring needs.",
-                  "image": "/img/w1.png",
+                  "image": "/img/w1.webp",
                   "hero": {
                     "tag": "END-TO-END",
                     "title1": "RPO",
@@ -769,7 +769,7 @@
                   "title": "Career Support",
                   "slug": "career-support",
                   "description": "Guidance and support for candidates to build successful and rewarding careers.",
-                  "image": "/team/team-9.jpg",
+                  "image": "/team/team-9.webp",
                   "hero": {
                     "tag": "FOR CANDIDATES",
                     "title1": "Career",
@@ -842,7 +842,7 @@
               "title_line1": "Trusted by businesses driven by ",
               "title_highlight": "success stories",
               "button": {
-                "text": "View All Reviews",
+                "text": "Reviews",
                 "href": "/reviews"
               },
               "reviews": [
@@ -1181,7 +1181,7 @@
                 "title": "Our Vision",
                 "description": "To be a trusted recruitment partner globally, known for bringing talent with opportunity, helping people grow, and making organizations build stronger, more successful teams."
               },
-              "image": "/img/missino.png"
+              "image": "/img/missino.webp"
             },
             "why_choose_us": {
               "subtitle": "WHY CHOOSE US",
@@ -1231,7 +1231,7 @@
               "description": "Explore exciting career opportunities and take the next step in your professional journey with a company that values people, growth, and innovation.",
               "list": [
                 {
-                  "image": "/jobs/1.png",
+                  "image": "/jobs/1.webp",
                   "title": "HR Executive",
                   "type": "Full Time",
                   "description": "Manage recruitment, employee engagement and HR operations to support our growing team.",
@@ -1260,7 +1260,7 @@
                   ]
                 },
                 {
-                  "image": "/jobs/2.png",
+                  "image": "/jobs/2.webp",
                   "title": "Business Executive",
                   "type": "Full Time",
                   "description": "Identify new business opportunities and build strong client relationships.",
@@ -1289,7 +1289,7 @@
                   ]
                 },
                 {
-                  "image": "/jobs/3.png",
+                  "image": "/jobs/3.webp",
                   "title": "Content Writer",
                   "type": "Full Time",
                   "description": "Create engaging content for our website, blogs and marketing campaigns.",
@@ -1318,7 +1318,7 @@
                   ]
                 },
                 {
-                  "image": "/jobs/4.png",
+                  "image": "/jobs/4.webp",
                   "title": "Digital Marketing",
                   "type": "Full Time",
                   "description": "Plan and execute digital marketing strategies to increase brand awareness and lead generation.",
@@ -1347,7 +1347,7 @@
                   ]
                 },
                 {
-                  "image": "/jobs/5.png",
+                  "image": "/jobs/5.webp",
                   "title": "Graphic Designer",
                   "type": "Full Time",
                   "description": "Design creative visuals for website, social media and marketing materials.",
@@ -1376,7 +1376,7 @@
                   ]
                 },
                 {
-                  "image": "/jobs/6.png",
+                  "image": "/jobs/6.webp",
                   "title": "Web Developer",
                   "type": "Full Time",
                   "description": "Develop and maintain responsive websites using modern technologies.",
@@ -1405,7 +1405,7 @@
                   ]
                 },
                 {
-                  "image": "/jobs/7.png",
+                  "image": "/jobs/7.webp",
                   "title": "Project Manager",
                   "type": "Full Time",
                   "description": "Coordinate projects, manage timelines and ensure successful delivery of client projects.",
@@ -1434,7 +1434,7 @@
                   ]
                 },
                 {
-                  "image": "/jobs/8.png",
+                  "image": "/jobs/8.webp",
                   "title": "Sales Executive",
                   "type": "Full Time",
                   "description": "Drive sales growth by connecting with potential clients and understanding their needs.",
@@ -1463,7 +1463,7 @@
                   ]
                 },
                 {
-                  "image": "/jobs/9.png",
+                  "image": "/jobs/9.webp",
                   "title": "Customer Support",
                   "type": "Full Time",
                   "description": "Provide excellent customer support and resolve client queries effectively.",
@@ -1492,7 +1492,7 @@
                   ]
                 },
                 {
-                  "image": "/jobs/1.png",
+                  "image": "/jobs/1.webp",
                   "title": "Data Analyst",
                   "type": "Full Time",
                   "description": "Analyze business data to find actionable insights and help make informed decisions.",
@@ -1521,7 +1521,7 @@
                   ]
                 },
                 {
-                  "image": "/jobs/2.png",
+                  "image": "/jobs/2.webp",
                   "title": "UI/UX Designer",
                   "type": "Full Time",
                   "description": "Create user-friendly interfaces and engaging experiences for our digital products.",
@@ -1550,7 +1550,7 @@
                   ]
                 },
                 {
-                  "image": "/jobs/3.png",
+                  "image": "/jobs/3.webp",
                   "title": "Software Engineer",
                   "type": "Full Time",
                   "description": "Build scalable software solutions and maintain internal tools.",
@@ -1629,49 +1629,49 @@
                 {
                   "name": "Ryan Carte",
                   "role": "Hr Director",
-                  "image": "/team/1.png",
+                  "image": "/team/1.webp",
                   "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
                 },
                 {
                   "name": "James Mitchell",
                   "role": "Talent Manager",
-                  "image": "/team/2.png",
+                  "image": "/team/2.webp",
                   "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
                 },
                 {
                   "name": "Ethan Brooks",
                   "role": "Payroll Specialist",
-                  "image": "/team/3.png",
+                  "image": "/team/3.webp",
                   "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
                 },
                 {
                   "name": "Daniel Foster",
                   "role": "Compliance Officer",
-                  "image": "/team/4.png",
+                  "image": "/team/4.webp",
                   "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
                 },
                 {
                   "name": "Sophia Reed",
                   "role": "Recruitment Lead",
-                  "image": "/team/5.png",
+                  "image": "/team/5.webp",
                   "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
                 },
                 {
                   "name": "Emma Collins",
                   "role": "Training Coordinator",
-                  "image": "/team/6.png",
+                  "image": "/team/6.webp",
                   "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
                 },
                 {
                   "name": "Olivia Hayes",
                   "role": "Benefits Advisor",
-                  "image": "/team/7.png",
+                  "image": "/team/7.webp",
                   "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
                 },
                 {
                   "name": "Isabella Turner",
                   "role": "Employee Relations",
-                  "image": "/team/8.png",
+                  "image": "/team/8.webp",
                   "social": { "facebook": "https://facebook.com", "instagram": "https://instagram.com", "linkedin": "https://linkedin.com", "youtube": "https://youtube.com" }
                 }
               ]
@@ -1693,7 +1693,7 @@
               "title_line1": "Frequently Asked ",
               "title_highlight": "Questions",
               "description": "Find quick answers to common questions about our services, process, and how we help businesses and talent grow together.",
-              "image": "/img/w2.png",
+              "image": "/img/w2.webp",
               "help": {
                 "label": "STILL HAVE QUESTIONS?",
                 "title": "We're here to help!",

@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import Link from 'next/link';
+
 import { ArrowRight, Star } from 'lucide-react';
 import { sections } from '../../types';
 import { motion, AnimatePresence, useInView } from 'framer-motion';
@@ -86,12 +86,12 @@ export default function Testimonials() {
             </h2>
             
             <div>
-              <Link href={button.href} className="inline-flex items-center gap-3 bg-[#fd5b08] text-white px-5 py-2.5 rounded-full font-bold hover:bg-orange-600 transition-colors">
+              <div className="inline-flex items-center gap-3 bg-[#fd5b08] text-white px-5 py-2.5 rounded-full font-bold transition-colors">
                 <span className="pl-2">{button.text}</span>
                 <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-[#fd5b08]">
                   <ArrowRight size={18} strokeWidth={2.5} />
                 </div>
-              </Link>
+              </div>
             </div>
           </motion.div>
 

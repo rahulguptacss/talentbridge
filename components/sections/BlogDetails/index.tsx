@@ -75,7 +75,7 @@ export default function BlogDetails({ post }: { post: any }) {
             <motion.img
               src={a.image ?? post.image}
               alt={post.title}
-              className="block w-full h-auto"
+              className="block w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover object-top"
               initial={{ scale: 1.1 }}
               animate={{ scale: 1 }}
               transition={{ duration: 1.4, ease }}
